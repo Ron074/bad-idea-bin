@@ -1,0 +1,63 @@
+h1 {
+  text-decoration: underline;
+  color: #ff4500;
+}
+
+body {
+  font-family: "Playwrite DE Grund", cursive;
+  background-color: lightblue;
+  padding: 32px;
+  text-align: center;
+}
+
+#addIdeaBtn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#ideasList {
+  margin-top: 32px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.delete-btn {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.blog-post {
+  border: 2px solid #ff4500;
+  background-color: #fff5e1;
+  padding: 8px 8px 8px;
+  margin: 16px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#deleteMessage {
+  color: #8b0000;
+  font-weight: bold;
+  margin-top: 16px;
+  transition: opacity 0.5s ease;
+}
+
+.hide {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.show {
+  opacity: 1;
+  height: auto;
+}
